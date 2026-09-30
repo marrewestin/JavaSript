@@ -7,4 +7,7 @@ function calculateArea (width, hight) {
     return area;
 }
 
-console.log(calculateArea(5, 2));
+// Anropar funktionen och skriver ut arean
+console.log("Arean är " + calculateArea(5, 2));
+console.log("Arean är " + calculateArea(20, 10));
+console.log("Arean är " + calculateArea(8, 8));
