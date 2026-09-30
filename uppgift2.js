@@ -6,3 +6,5 @@ const productPrice = 100;
 const numberOfProducts = 3;
 
 const totalPrice = productPrice * numberOfProducts;
+
+console.log("Totalt: " + totalPrice + " kr");
