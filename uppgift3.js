@@ -2,9 +2,11 @@
 "use strict";
 
 // Variabel med valfri ålder
-let age = 20;
+let age = 50;
 
 // If-sats som kontrollerar åldern
 if (age < 18) {
     console.log("Barn");
+} else if (age >= 18 && age < 65) {
+    console.log("Vuxen");
 }
