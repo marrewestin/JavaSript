@@ -4,8 +4,16 @@
 // Array med maträtter
 let food = ["Spagetti och köttfärssås", "Köttbullar med potatismos", "Pizza", "Korv och makaroner", "Hamburgare"];
 
-// Skriver ut hela arrayen
+// 1. Skriver ut hela arrayen
 console.log(food);
 
-// Skriver ut första elementet i arrayen
+// 2. Skriver ut första elementet i arrayen
 console.log(food[0]);
+
+// 3. Skriver ut sista elementet i arrayen
+console.log(food[4]);
+
+// 4. Lägger till ny maträtt sist i arrayen
+food.push("Nudelwok");
+
+console.table(food);
