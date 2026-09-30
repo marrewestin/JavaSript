@@ -7,3 +7,13 @@ const book = {
     author: "J.R.R Tolkien",
     year: 1937
 };
+
+// Funktion som skriver ut bokinfo
+function printBookInfo (bookObject) {
+    console.log("Titel: " + bookObject.title);
+    console.log("Författare: " + bookObject.author);
+    console.log("Utgivningsår: " + bookObject.year);
+}
+
+// Anropar funktionen som skriver ut bokinfo
+printBookInfo(book);
