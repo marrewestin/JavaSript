@@ -16,4 +16,8 @@ console.log(food[4]);
 // 4. Lägger till ny maträtt sist i arrayen
 food.push("Nudelwok");
 
-console.table(food);
+// 5. Tar bort den första maträtten i arrayen
+food.shift();
+
+// 6. Skriver ut hela arrayen efter ändringar
+console.log(food);
