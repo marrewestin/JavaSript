@@ -3,12 +3,14 @@
 
 // Array med minst sex tal
 const myNumbers = [4, 8, 12, 16, 20, 24];
-console.log(myNumbers);
 
+// Funktion som räknar ut summan av alla tal i en array
 function mySum(numbers) {
+    let sum = 0;
     for (let i=0; i<numbers.length; i++) {
-        console.log(i);
+       sum = sum + numbers[i];
     }
+    return sum;
 }
-
-mySum(myNumbers);
+// Anropar funktionen och skriver ut summan
+console.log("Summan är " + mySum(myNumbers));
