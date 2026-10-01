@@ -1,4 +1,4 @@
-/* Lösning till Uppgift 7. Av Maria Westin, 2026 */
+/* Lösning till Uppgift 8. Av Maria Westin, 2026 */
 "use strict";
 
 // Objekt som representerar en bok
