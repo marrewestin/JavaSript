@@ -1,6 +1,7 @@
 /* Lösning till Uppgift 9. Av Maria Westin, 2026 */
 "use strict";
 
+// En array med objekt som representerar en person
 const people = [
     {
         name: "Maria",
@@ -19,16 +20,18 @@ const people = [
     }
 ];
 
-// Loop som går igenom arrayen
-/* people.forEach(person => {
-    console.log(person);
-}); */
-
 // Funktion som skriver ut från arrayen
 function printPeople(myArray) {
+    // Loop som går igenom arrayen
     myArray.forEach(person => {
-        console.log(person.name);
+        // Villkor för att avgöra om personen är myndig
+        if(person.age >= 18) {
+            console.log(person.name + " bor i " + person.city + " och är myndig."); 
+        } else {
+            console.log(person.name + " bor i " + person.city + " och är inte myndig.");
+        }
     });
 }
 
+// Anropar funktionen för att skriva ut från arrayen
 printPeople(people);
